@@ -9,7 +9,7 @@ if(process.argv[2]== null || process.argv[3]== null){
 var name = process.argv[2];
 var friend = process.argv[3];
  var prompt = require('prompt');
- var socket = require('socket.io-client')('http://localhost:8000');
+ var socket = require('socket.io-client')('http://40.86.75.201:8000');
  var colors = require('colors');
 
  colors.setTheme({
